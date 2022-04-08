@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": "./",
+      "strict": false,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "typeRoots" : [
+        "../node_modules/@types"
+      ]
+    },
+    "exclude": [],
+    "include": [
+      "**/*.test.tsx",
+      "**/*.test.ts"
+    ],
+  }
+  
